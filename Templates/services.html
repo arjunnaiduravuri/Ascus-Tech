@@ -3,53 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services</title>
     <link rel="stylesheet" href="../stylesheets/services.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+    <link rel="stylesheet" href="../stylesheets/res.css">
 
 </head>
 <body>
     <div class="cont">
-        <div class="nav">
+        <div class="container">
+            <div class="nav">
 
-            <div class="image1">
-                <img src="https://ascustech.in/wp-content/uploads/2024/05/Logo_B.png"/>
+                <div class="image1">
+                    <img src="../Media/ascus.png" />
+                </div>
     
-            </div>
+                <div class="home">
+                    <h6 class="rightNav"><a href="../Templates/index.html">Home</a></h6>
     
-            <div class="home">
-                 <a href="ascus" target="_blank">Home</a> 
-    
-                <a href="ascus" target="_blank" class="abs">About Us
+                    <h6 class="rightNav"><a href="../Templates/About.html"  >About Us</a>
                         <div class="about">
-                            <li>Our Vision</li>
-                            <li>Our Mission</li>
-                         </div> 
-                        </a> 
-               
-    
-                 <a href="ascus" target="_blank">Services 
-                        <div class="ser">
-                         <li>Web Devlopement</li>
-                         <li>Mobile Devlopement</li>
-                         <li>App Devlopement</li>
-                         <li>Custom Software Development</li>
-                         <li>UI and UX Designs</li>
-                         <li>Cyber Security Development</li>
-                         <li>Digital Marketing</li>
-                         <li>E-Governance</li>
+                            <li><a href="../Templates/Our Vision.html">Our Vision</a></li>
+                            <li><a href="../Templates/ourmission.html">Our Mission</a></li>
                         </div>
-                     </a>
-                <button>Contact Us</button>
+                    </h6>
+    
+                    <h6 class="rightNav">
+                        <a href="../Templates/services.html" class="active">Services </a>
+                        <div class="ser">
+                            <li><a href="../Templates/webdev.html">Web Devlopement</a></li>
+                            <li><a href="../Templates/mobdev.html">Mobile Devlopement</a></li>
+                            <li><a href="../Templates/appdevelopment.html">App Devlopement</a></li>
+                            <li><a href="../Templates/customdevelopment.html">Custom Software Develpoment</a></li>
+                            <li><a href="../Templates/UI&UX Pages.html">UI and UX Designs</a></li>
+                            <li><a href="../Templates/cyber.html">Cyber Security Development</a></li>
+                            <li><a href="../Templates/Digital Marketing.html">Digital Marketing</a></li>
+                            <li><a href="../Templates/Egovt.html">E-Governance</a></li>
+                        </div>
+                    </h6>
+                    <button><a href="../Templates/contact.html">Contact Us</a></button>
+                </div>
+                <div class="sideNav">
+                    <input type="checkbox" id="side">
+                    <label for="side" class="lines">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </label>
+                    <div class="Slide">
+                        <div class="SideTop">
+                            <label for="side">X</label>
+                            
+                        </div>
+                        <div class="SlideLinks">
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <input type="checkbox" id="aLink">
+                            <Label for="aLink">About <i class="fa-solid fa-chevron-down"></i></Label>
+                            <div class="aLinks">
+                                <a href="../Templates/Our Vision.html">Our Vision</a>
+                                <a href="../Templates/ourmission.html">Our Mision</a>
+                            </div></li>
+                            <li>
+                                <input type="checkbox" id="sLink">
+                                <Label for="sLink">Services <i class="fa-solid fa-chevron-down"></i></Label>
+                            <div class="cc">
+                                <a href="../Templates/webdev.html">Web Development</a>
+                                <a href="../Templates/appdevelopment.html">App Development</a>
+                                <a href="../Templates/customdevelopment.html">Custom Software Develpoment</a>
+                                <a href="../Templates/UI&UX Pages.html">UI and UX Designs</a>
+                                <a href="../Templates/cyber.html">Cyber Security Development</a>
+                                <a href="../Templates/Digital Marketing.html">Digital Marketing</a>
+                                <a href="../Templates/Egovt.html">E-Governance</a>                            
+                            </div>
+                            </li>
+                            <li><a href="../Templates/contact.html">ContactUs</a></li>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
         <div class="head">
             <h1>Service</h1>
-            <div><a href="#">Home</a><h6> <span> / </span> Service</h6></div>
+            <h5><a href="index.html">Home</a> / Services</h5>
         </div>
 
-        <div class="cent1">
+        <div class="cent1 ">
             <p>We gave the best</p>
             <h1>What We Offer</h1>
 
@@ -57,79 +99,95 @@
             
         </div>
         <div class="cent2">
-            <div class="mark">
-                <div>
-                    <img src="https://cdn-icons-png.freepik.com/512/9371/9371363.png" >
+            <a href="webdev.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://cdn-icons-png.freepik.com/512/9517/9517119.png" >
+                    </div>
+    
+                    <h4>Web Development</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
+            </a>
 
-                <h4>Market Analysis And Strategy</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-
-            <div class="mark">
-                <div>
-                    <img src="https://icons.veryicon.com/png/o/education-technology/china-aerospace/intelligent-cloud.png" >
+            <a href="mobdev.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://icons.veryicon.com/png/o/education-technology/china-aerospace/intelligent-cloud.png" >
+                    </div>
+    
+                    <h4>Mobile Development</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Intelligent Cloud Computing</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://static.thenounproject.com/png/3073541-200.png" >
+            </a>
+            <a href="appdevelopment.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://static.thenounproject.com/png/3073541-200.png" >
+                    </div>
+    
+                    <h4>App Development</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Program Analysis and Development</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://img.icons8.com/ios7/600w/000000/database.png" >
+            </a>
+            <a href="customdevelopment.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://img.icons8.com/ios7/600w/000000/database.png" >
+                    </div>
+    
+                    <h4>Custom Software Development</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Data base security</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/2560px-Devops-toolchain.svg.png" >
+            </a>
+            <a href="UI&UX Pages.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/2560px-Devops-toolchain.svg.png" >
+                    </div>
+    
+                    <h4>UI and UX Designs</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>DevOps</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://cdn-icons-png.freepik.com/512/10349/10349353.png" >
+            </a>
+            <a href="cyber.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://cdn-icons-png.freepik.com/512/10349/10349353.png" >
+                    </div>
+    
+                    <h4>Cyber Security Development</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Quantum computing</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-deep-learning-line-icon-vector-png-image_6688986.png" >
+            </a>
+            <a href="Digital Marketing.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-deep-learning-line-icon-vector-png-image_6688986.png" >
+                    </div>
+    
+                    <h4>Digital Marketing</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Machine learning</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
-            <div class="mark">
-                <div>
-                    <img src="https://icons.veryicon.com/png/o/education-technology/blue-gray-solid-blend-icon/artificial-intelligence-5.png" >
+            </a>
+            <a href="Egovt.html">
+                <div class="mark">
+                    <div>
+                        <img src="https://icons.veryicon.com/png/o/education-technology/blue-gray-solid-blend-icon/artificial-intelligence-5.png" >
+                    </div>
+    
+                    <h4>E-Governance</h4>
+                    <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
+    
                 </div>
-
-                <h4>Artificial intelligence</h4>
-                <p>We bring the right people together to challenge established thinking and drive transform in 2020</p>
-
-            </div>
+            </a>
         </div>
         <footer>
             <div class="foot1">
@@ -137,7 +195,7 @@
                 <div class="f1">
     
                     <div class="image3">
-                        <img src="https://ascustech.in/wp-content/uploads/2024/05/Logo_B.png"/>
+                        <img src="../Media/ascus.png" />
                     </div>
     
                     <div class="f-icons">
@@ -149,31 +207,34 @@
     
                 </div>
     
+               <div class="footerLinks">
                 <div class="f2">
                     <div class="qq">
-                       <h2> Quick Links </h2> 
-                        <p> Services</p>
-                        <p> About Us</p>
-                        <p>Career</p>
-                        <p>Contact</p>   
-                    </div> 
+                        <h2> Quick Links </h2>
+                        <p><a href="./services.html">Services</a> </p>
+                        <p><a href="./About.html">About Us</a></p>
+                        <p><a href="./career.html">Career</a></p>
+                        <p><a href="./contact.html">Contact</a></p>
+                    </div>
                 </div>
     
                 <div class="f3">
-                    <div class="qq"> <h2>Legal</h2>
-                        <p>Terms&Conditions</p>
-                        <p>Privacy Policy</p>
-                        <p>Refund Policy</p>
-                        <p>Cookies Policy</p> 
+                    <div class="qq">
+                        <h2>Legal</h2>
+                        <p><a href="./terms.html">Terms & Conditions</a></p>
+                        <p><a href="./privacy.html">Privacy Policy</a></p>
+                        <p><a href="./refund.html">Refund Policy</a></p>
+                        <p><a href="./cookies.html">Cookies Policy</a></p>
                     </div>
-                          
                 </div>
+               </div>
     
                 <div class="f4">
                     <h2>Contact</h2>
-                    <div>  
+                    <div>
                         <i class="fa-solid fa-location-dot"></i>
-                        <p> Plot No: 36 & 37, Survey No: 86, Vittal<br> Rao Nagar, Madhapur, Hi-tech City,<br> Hyderabad, Telangana-500081</p>
+                        <p> Plot No: 36 & 37, Survey No: 86, Vittal<br> Rao Nagar, Madhapur, Hi-tech City,<br> Hyderabad,
+                            Telangana-500081</p>
                     </div>
     
                     <div>
