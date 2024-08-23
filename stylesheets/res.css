@@ -5,6 +5,11 @@
     display: flex;
     gap: 150px;
 }
+.f-icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width:800px){
     .home{
