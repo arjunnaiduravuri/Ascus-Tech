@@ -3,90 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyber Security</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../stylesheets/cyber.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../stylesheets/res.css">
 
 </head>
 <body>
-    <div class="container">
-        <div class="nav">
+    <div class="navbar">
+    <div class="nav">
 
-            <div class="image1">
-                <img src="../Media/ascus.png" />
-            </div>
+        <div class="image1">
+            <img src="data:image/png;base64,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"/>
+        </div>
 
-            <div class="home">
-                <h6 class="rightNav"><a href="../Templates/index.html">Home</a></h6>
+        <div class="home">
+             <a href="ascus" target="_blank">Home</a> 
 
-                <h6 class="rightNav"><a href="../Templates/About.html">About Us</a>
+            <a href="ascus" target="_blank" class="abs">About Us
                     <div class="about">
-                        <li><a href="../Templates/Our Vision.html">Our Vision</a></li>
-                        <li><a href="../Templates/ourmission.html">Our Mission</a></li>
-                    </div>
-                </h6>
+                        <li>Our Vision</li>
+                        <li>Our Mission</li>
+                     </div> 
+                    </a> 
+           
 
-                <h6 class="rightNav">
-                    <a href="../Templates/services.html"  class="active">Services </a>
+             <a href="ascus" target="_blank">Services 
                     <div class="ser">
-                        <li><a href="../Templates/webdev.html">Web Devlopement</a></li>
-                        <li><a href="../Templates/mobdev.html">Mobile Devlopement</a></li>
-                        <li><a href="../Templates/appdevelopment.html">App Devlopement</a></li>
-                        <li><a href="../Templates/customdevelopment.html">Custom Software Develpoment</a></li>
-                        <li><a href="../Templates/UI&UX Pages.html">UI and UX Designs</a></li>
-                        <li><a href="../Templates/cyber.html">Cyber Security Development</a></li>
-                        <li><a href="../Templates/Digital Marketing.html">Digital Marketing</a></li>
-                        <li><a href="../Templates/Egovt.html">E-Governance</a></li>
+                     <li>Web Devlopement</li>
+                     <li>Mobile Devlopement</li>
+                     <li>App Devlopement</li>
+                     <li>Custom Software Development</li>
+                     <li>UI and UX Designs</li>
+                     <li>Cyber Security Development</li>
+                     <li>Digital Marketing</li>
+                     <li>E-Governance</li>
                     </div>
-                </h6>
-                <button><a href="../Templates/contact.html">Contact Us</a></button>
-            </div>
-            <div class="sideNav">
-                <input type="checkbox" id="side">
-                <label for="side" class="lines">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </label>
-                <div class="Slide">
-                    <div class="SideTop">
-                        <label for="side">X</label>
-                        
-                    </div>
-                    <div class="SlideLinks">
-                        <li><a href="">Home</a></li>
-                        <li>
-                            <input type="checkbox" id="aLink">
-                        <Label for="aLink">About <i class="fa-solid fa-chevron-down"></i></Label>
-                        <div class="aLinks">
-                            <a href="../Templates/Our Vision.html">Our Vision</a>
-                            <a href="../Templates/ourmission.html">Our Mision</a>
-                        </div></li>
-                        <li>
-                            <input type="checkbox" id="sLink">
-                            <Label for="sLink">Services <i class="fa-solid fa-chevron-down"></i></Label>
-                        <div class="cc">
-                            <a href="../Templates/webdev.html">Web Development</a>
-                            <a href="../Templates/appdevelopment.html">App Development</a>
-                            <a href="../Templates/customdevelopment.html">Custom Software Develpoment</a>
-                            <a href="../Templates/UI&UX Pages.html">UI and UX Designs</a>
-                            <a href="../Templates/cyber.html">Cyber Security Development</a>
-                            <a href="../Templates/Digital Marketing.html">Digital Marketing</a>
-                            <a href="../Templates/Egovt.html">E-Governance</a>                            
-                        </div>
-                        </li>
-                        <li><a href="../Templates/contact.html">ContactUs</a></li>
-                    </div>
-                </div>
-            </div>
+                 </a>
+            <button>Contact Us</button>
         </div>
-    </div>
+        </div>
+
     
+    <!-- <div class="cont">
+    <div class="top">
+    <h1>Cyber Security</h1>
+    <p>  Home / Services / Cyber security</p>
+    </div>
+
+    <div class="bottom1">
+        <img src="https://ascustech.in/wp-content/uploads/2023/07/4s.jpg"class="image5"/>
+        <h2>Protecting Your Digital Assets with AscusTech Cyber Security Solutions</h2>
+        <P class="para">AscusTech is a leading provider of comprehensive cyber security solutions, empowering businesses to safeguard their digital assets against evolving threats and vulnerabilities. Headquartered in Hyderabad, India, we specialize in delivering robust, proactive security measures tailored to the unique needs of our clients.</P>
+
+
+        <p> <i class="fa-solid fa-check"></i> Application Security. ... </p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p >  <i class="fa-solid fa-check"></i> Network Security. ...</p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p ><i class="fa-solid fa-check"></i> Cloud Security. ... </p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p><i class="fa-solid fa-check"></i> Critical infrastructure security. ... </p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <p><i class="fa-solid fa-check"></i>  Internet of Things (IoT) Security. ... </p>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    </div>
+    </div> -->
     <div class="cy">
-        <div class="image">
-            <img src="../Media/cons.jpg" alt="">
-        </div>
         <h1>Under Construction</h1>
     </div>
 
@@ -98,7 +80,7 @@
             <div class="f1">
 
                 <div class="image3">
-                    <img src="../Media/ascus.png" />
+                    <img src="data:image/png;base64,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"/>
                 </div>
 
                 <div class="f-icons">
@@ -110,34 +92,31 @@
 
             </div>
 
-            <div class="footerLinks">
-                <div class="f2">
-                    <div class="qq">
-                        <h2> Quick Links </h2>
-                        <p><a href="./services.html">Services</a> </p>
-                        <p><a href="./About.html">About Us</a></p>
-                        <p><a href="./career.html">Career</a></p>
-                        <p><a href="./contact.html">Contact</a></p>
-                    </div>
+            <div class="f2">
+                <div class="qq">
+                   <h2> Quick Links </h2> 
+                    <p> Services</p>
+                    <p> About Us</p>
+                    <p>Career</p>
+                    <p>Contact</p>   
+                </div> 
+            </div>
+
+            <div class="f3">
+                <div class="qq"> <h2>Legal</h2>
+                    <p>Terms&Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Refund Policy</p>
+                    <p>Cookies Policy</p> 
                 </div>
-    
-                <div class="f3">
-                    <div class="qq">
-                        <h2>Legal</h2>
-                        <p><a href="./terms.html">Terms & Conditions</a></p>
-                        <p><a href="./privacy.html">Privacy Policy</a></p>
-                        <p><a href="./refund.html">Refund Policy</a></p>
-                        <p><a href="./cookies.html">Cookies Policy</a></p>
-                    </div>
-                </div>
-               </div>
+                      
+            </div>
 
             <div class="f4">
                 <h2>Contact</h2>
-                <div>
+                <div>  
                     <i class="fa-solid fa-location-dot"></i>
-                    <p> Plot No: 36 & 37, Survey No: 86, Vittal<br> Rao Nagar, Madhapur, Hi-tech City,<br> Hyderabad,
-                        Telangana-500081</p>
+                    <p> Plot No: 36 & 37, Survey No: 86, Vittal<br> Rao Nagar, Madhapur, Hi-tech City,<br> Hyderabad, Telangana-500081</p>
                 </div>
 
                 <div>
